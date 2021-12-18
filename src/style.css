@@ -4,11 +4,17 @@ body {
   letter-spacing: 1px;
 }
 
-h1,
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
 h2 {
   text-align: center;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 button {
@@ -64,6 +70,10 @@ a:hover {
 
 #search {
   font-size: 20px;
+}
+
+.container {
+  max-width: 800px;
 }
 
 .fa-search {
