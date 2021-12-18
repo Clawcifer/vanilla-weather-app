@@ -50,9 +50,9 @@ function showWeatherConditions(response) {
     response.data.main.temp
   )}°C`;
   document.querySelector(
-    "#humidity"
+    "#humidity-value"
   ).innerHTML = `${response.data.main.humidity}%`;
-  document.querySelector("#wind").innerHTML = `${Math.round(
+  document.querySelector("#wind-value").innerHTML = `${Math.round(
     response.data.wind.speed
   )} km/h`;
   document.querySelector("#weather-description").innerHTML =

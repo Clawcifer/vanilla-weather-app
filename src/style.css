@@ -72,6 +72,10 @@ a:hover {
   font-size: 20px;
 }
 
+#coder {
+  font-size: 15px;
+}
+
 .container {
   max-width: 800px;
 }
@@ -83,6 +87,14 @@ a:hover {
 .city-and-date {
   padding: 30px;
   margin: 10px 0 25px 0;
+}
+
+.separator {
+  box-shadow: 0px 2px 3px rgb(0 0 0 / 20%);
+}
+
+.weather-icon img {
+  width: 110px;
 }
 
 .five-days,
@@ -113,11 +125,13 @@ a:hover {
 
 .precipitation-and-wind {
   text-align: center;
+  font-size: 22px;
 }
 
-.precipitation,
-.wind {
-  font-size: 22px;
+.humidity img,
+.wind img {
+  width: 25px;
+  margin-right: 5px;
 }
 
 .description {

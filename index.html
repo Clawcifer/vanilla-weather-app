@@ -48,7 +48,7 @@
     <div class="city-and-date">
       <br />
       <h1 id="city"></h1>
-      <hr>
+      <hr class="separator">
       <h2 id="date"></h2>
     </div>
     
@@ -60,7 +60,7 @@
         
     </div>
 
-  <div class="row">
+  <div class="row units">
       <div class="col convert" id="#links">
           <a href="#" id="convert-in-F">°F</a> |
           <a href="#" id="convert-in-C">C°</a>
@@ -69,8 +69,8 @@
 </div>
 
 <div class="col-sm weathericon">
-    <div class="clearfix">
-        <img src="C:\Users\orian\Desktop\vanilla-weather-app\images\Cloud_Sun.svg" alt="weather-icon" class="float-right">
+    <div class="clearfix weather-icon">
+        <img src="C:\Users\orian\Desktop\vanilla-weather-app\images\Cloud.svg" alt="weather-icon" class="float-right">
     </div>
 </div>
 </div>
@@ -80,11 +80,13 @@
 <div class="row">
 <div class="col precipitation-and-wind">
     <ul>
-        <li class="precipitation">🌧 
-            <span id="humidity">
+        <li class="humidity">    
+            <img src="C:\Users\orian\Desktop\vanilla-weather-app\images\Rain_Light.svg" alt="humidity-icon">
+            <span id="humidity-value">
             </span></li>
-        <li class="wind">💨 
-        <span id="wind">
+        <li class="wind">
+            <img src="C:\Users\orian\Desktop\vanilla-weather-app\images\Wind.svg" alt="wind-icon"> 
+        <span id="wind-value">
             </span></li>
     </ul>
 </div>
